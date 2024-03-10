@@ -6,10 +6,15 @@ using System.Web.Mvc;
 
 namespace ProyectoU3Web.Controllers
 {
-    public class NoveltiesController : Controller
+    public class AdminController : Controller
     {
-        // GET: Novelties
+        // GET: Admin
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Admins()
         {
             return View();
         }
